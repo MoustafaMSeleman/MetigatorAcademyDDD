@@ -1,0 +1,11 @@
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.deps.json
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.pdb
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.AssemblyInfoInputs.cache
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.AssemblyInfo.cs
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.csproj.CoreCompileInputs.cache
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\refint\MetigatorAcademy.Contracts.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.pdb
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\ref\MetigatorAcademy.Contracts.dll

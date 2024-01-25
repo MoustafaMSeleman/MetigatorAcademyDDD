@@ -1,0 +1,15 @@
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\bin\Debug\net8.0\MetigatorAcademy.Application.deps.json
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\bin\Debug\net8.0\MetigatorAcademy.Application.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\bin\Debug\net8.0\MetigatorAcademy.Application.pdb
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.AssemblyInfoInputs.cache
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.AssemblyInfo.cs
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.csproj.CoreCompileInputs.cache
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\refint\MetigatorAcademy.Application.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.pdb
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\ref\MetigatorAcademy.Application.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\bin\Debug\net8.0\MetigatorAcademy.Domain.dll
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\bin\Debug\net8.0\MetigatorAcademy.Domain.pdb
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.csproj.AssemblyReference.cache
+D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Application\obj\Debug\net8.0\MetigatorAcademy.Application.csproj.CopyComplete
