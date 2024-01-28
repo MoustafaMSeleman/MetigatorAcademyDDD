@@ -15,8 +15,9 @@ public class Instructor:Entity
     public ICollection<Section> Sections { get; set; } = new List<Section>();
 
     private Instructor() { }
-    public Instructor(string? fName, string? lName, int officeId)
+    public Instructor(int id,string? fName, string? lName, int officeId)
     {
+        Id = id;
         FName = fName;
         LName = lName;
        OfficeId = officeId;

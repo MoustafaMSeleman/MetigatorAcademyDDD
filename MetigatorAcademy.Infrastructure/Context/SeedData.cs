@@ -38,11 +38,11 @@ public static class SeedData
     // Method to load data for Instructors
     public static List<Instructor> LoadInstructors() => new()
     {
-        new Instructor ("Ahmed", "Abdullah",  1){ },
-        new Instructor ("Yasmeen", "Mohammed", 2){ },
-        new Instructor ("Khalid",  "Hassan",  3 ){},
-        new Instructor ("Nadia", "Ali", 4 ){},
-        new Instructor ("Omar", "Ibrahim",  5){ }
+        new Instructor (1, "Ahmed", "Abdullah", 1){ },
+        new Instructor (2,"Yasmeen", "Mohammed", 2){ },
+        new Instructor (3,"Khalid",  "Hassan",  3 ){},
+        new Instructor (4,"Nadia", "Ali", 4 ){},
+        new Instructor (5,"Omar", "Ibrahim",  5){ }
     };
 
     // Method to load data for Sections

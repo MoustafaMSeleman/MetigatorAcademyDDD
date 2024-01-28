@@ -9,3 +9,15 @@ D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcad
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Domain\obj\Debug\net8.0\refint\MetigatorAcademy.Domain.dll
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.pdb
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Domain\obj\Debug\net8.0\ref\MetigatorAcademy.Domain.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\bin\Debug\net8.0\MetigatorAcademy.Domain.deps.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\bin\Debug\net8.0\MetigatorAcademy.Domain.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\bin\Debug\net8.0\MetigatorAcademy.Domain.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.AssemblyInfoInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.AssemblyInfo.cs
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.csproj.CoreCompileInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.sourcelink.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\refint\MetigatorAcademy.Domain.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\MetigatorAcademy.Domain.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Domain\obj\Debug\net8.0\ref\MetigatorAcademy.Domain.dll

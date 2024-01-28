@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ypw4XOG5kWEia/7nODT3HBZZ+NFVm7dqU+4qDG3/CpbO15B4tFVDeDP4Ra/cQYNjL7EddQtWJ+ANh0ObZNVOsw==",
+  "dgSpecHash": "XVI9TXDrY0EMVcnZmtOD6lMOHEQqcdRiyP+A239iitL/DR8ygAxzAllMXPa9Uletr1FcVdUnjLCAvz2xq4RY8A==",
   "success": true,
-  "projectFilePath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
+  "projectFilePath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

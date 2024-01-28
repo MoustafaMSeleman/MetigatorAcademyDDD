@@ -17,3 +17,23 @@ D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcad
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.csproj.AssemblyReference.cache
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.csproj.CopyComplete
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.genruntimeconfig.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.csproj.AssemblyReference.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.AssemblyInfoInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.AssemblyInfo.cs
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.csproj.CoreCompileInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.sourcelink.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\refint\MetigatorAcademy.Infrastructure.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Infrastructure.deps.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Infrastructure.runtimeconfig.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Infrastructure.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Infrastructure.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Application.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Domain.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Application.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\bin\Debug\net8.0\MetigatorAcademy.Domain.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.csproj.CopyComplete
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\MetigatorAcademy.Infrastructure.genruntimeconfig.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Infrastructure\obj\Debug\net8.0\ref\MetigatorAcademy.Infrastructure.dll

@@ -9,11 +9,11 @@ public class OfficeConfig : IEntityTypeConfiguration<Office>
     public void Configure(EntityTypeBuilder<Office> builder)
     {
         builder.Property(e => e.OfficeName)
-            .HasColumnName("VARCHAR")
+            .HasColumnType("VARCHAR")
             .HasMaxLength(50)
             .IsRequired();
         builder.Property(e => e.OfficeLocation)
-            .HasColumnName("VARCHAR")
+            .HasColumnType("VARCHAR")
             .HasMaxLength(50)
             .IsRequired();
 

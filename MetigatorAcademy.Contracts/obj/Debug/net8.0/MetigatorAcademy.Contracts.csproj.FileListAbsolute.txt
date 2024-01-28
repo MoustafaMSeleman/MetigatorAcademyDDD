@@ -9,3 +9,15 @@ D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcad
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\refint\MetigatorAcademy.Contracts.dll
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.pdb
 D:\DotNet Core\Entity framework\MetigatorAcademcy\MetigatorAcademy\MetigatorAcademy.Contracts\obj\Debug\net8.0\ref\MetigatorAcademy.Contracts.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.deps.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\bin\Debug\net8.0\MetigatorAcademy.Contracts.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.AssemblyInfoInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.AssemblyInfo.cs
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.csproj.CoreCompileInputs.cache
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.sourcelink.json
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\refint\MetigatorAcademy.Contracts.dll
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\MetigatorAcademy.Contracts.pdb
+E:\DotNet\EntityFramework\MyWork\MetigatorAcademyDDD\MetigatorAcademyDDD\MetigatorAcademy.Contracts\obj\Debug\net8.0\ref\MetigatorAcademy.Contracts.dll

@@ -9,11 +9,11 @@ public class InstructorConfig : IEntityTypeConfiguration<Instructor>
     public void Configure(EntityTypeBuilder<Instructor> builder)
     {
         builder.Property(e => e.FName)
-            .HasColumnName("VARCHAR")
+            .HasColumnType("VARCHAR")
             .HasMaxLength(50)
             .IsRequired();
         builder.Property(e => e.LName)
-            .HasColumnName("VARCHAR")
+            .HasColumnType("VARCHAR")
             .HasMaxLength(50)
             .IsRequired();
 
