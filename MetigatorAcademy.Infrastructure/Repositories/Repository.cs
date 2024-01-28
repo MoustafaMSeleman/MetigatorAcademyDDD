@@ -27,6 +27,10 @@ public class Repository<T> : IRepository<T> where T : class
     {
         return _context.Set<T>().ToList();
     }
+    public async Task<IEnumerable<T>> GetAllAsync()
+    {
+        return await _context.Set<T>().ToListAsync();
+    }
     public T Find(Expression<Func<T,bool>> match)
     { 
         return _context.Set<T>().SingleOrDefault(match);

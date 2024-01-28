@@ -18,9 +18,10 @@ namespace MetigatorAcademy.Api.Controllers
         }
 
         [HttpGet("AddRange")]
-        public IActionResult AddRange()
+        public IActionResult AddRange(List<Office> list)
         {
-            return Ok(_officeRepository.AddRange(SeedData.LoadOffices()));
+            //return Ok( _officeRepository.AddRange(SeedData.LoadCorporates()));
+            return Ok(_officeRepository.AddRange(list));
         }
     }
 }
