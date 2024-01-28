@@ -19,8 +19,9 @@ public class Schedule :Entity
     public ICollection<Section> Sections { get; set; } = new List<Section>();
 
     private Schedule() { }
-    public Schedule(ScheduleEnum title, bool sUN, bool mON, bool tUE, bool wED, bool tHU, bool fRI, bool sAT)
+    public Schedule(int id,ScheduleEnum title, bool sUN, bool mON, bool tUE, bool wED, bool tHU, bool fRI, bool sAT)
     {
+        Id = id;
         Title = title;
         SUN = sUN;
         MON = mON;

@@ -11,8 +11,9 @@ public class Course : Entity
 
     private Course() { }
 
-    public Course(string courseName, decimal price)
+    public Course(int id,string courseName, decimal price)
     {
+        Id = id;
         CourseName = courseName;
         Price = price;
         

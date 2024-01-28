@@ -8,6 +8,7 @@ public class OfficeConfig : IEntityTypeConfiguration<Office>
 {
     public void Configure(EntityTypeBuilder<Office> builder)
     {
+        builder.Property(e => e.Id).ValueGeneratedNever();
         builder.Property(e => e.OfficeName)
             .HasColumnType("VARCHAR")
             .HasMaxLength(50)

@@ -8,6 +8,7 @@ public class InstructorConfig : IEntityTypeConfiguration<Instructor>
 {
     public void Configure(EntityTypeBuilder<Instructor> builder)
     {
+        builder.Property(e => e.Id).ValueGeneratedNever();
         builder.Property(e => e.FName)
             .HasColumnType("VARCHAR")
             .HasMaxLength(50)

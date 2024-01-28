@@ -9,6 +9,7 @@ public class ScheduleConfig : IEntityTypeConfiguration<Schedule>
 {
     public void Configure(EntityTypeBuilder<Schedule> builder)
     {
+        builder.Property(x => x.Id).ValueGeneratedNever();
         builder.Property(e => e.Title)
             .HasConversion(
                x => x.ToString(),

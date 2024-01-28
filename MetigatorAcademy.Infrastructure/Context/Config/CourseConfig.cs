@@ -8,6 +8,7 @@ public class CourseConfig : IEntityTypeConfiguration<Course>
 {
     public void Configure(EntityTypeBuilder<Course> builder)
     {
+        builder.Property(e => e.Id).ValueGeneratedNever();
         builder.Property(e => e.CourseName)
             .HasColumnType("VARCHAR")
             .HasMaxLength(100)

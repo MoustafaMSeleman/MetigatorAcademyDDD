@@ -8,7 +8,7 @@ public class SectionConfig : IEntityTypeConfiguration<Section>
 {
     public void Configure(EntityTypeBuilder<Section> builder)
     {
-        
+        builder.Property(e => e.Id).ValueGeneratedNever();
 
         builder.Property(e => e.SectionName)
             .HasColumnType("VARCHAR")

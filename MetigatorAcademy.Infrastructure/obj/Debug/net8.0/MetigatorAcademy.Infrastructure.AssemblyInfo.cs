@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetigatorAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07805e6c1e2fca5a3317db7962fedef579d07e6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82139b48301dc2c62103e80c2d9571cb076d093f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetigatorAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetigatorAcademy.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

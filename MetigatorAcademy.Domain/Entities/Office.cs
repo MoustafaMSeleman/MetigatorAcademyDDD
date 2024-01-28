@@ -11,8 +11,9 @@ public class Office:Entity
     public Instructor? Instructor { get; set; }
 
     private Office() { }
-    public Office(string ? officeName, string? officeLocation)
+    public Office(int id,string ? officeName, string? officeLocation)
     {
+        Id = id;
         OfficeName = officeName;
         OfficeLocation = officeLocation;
         

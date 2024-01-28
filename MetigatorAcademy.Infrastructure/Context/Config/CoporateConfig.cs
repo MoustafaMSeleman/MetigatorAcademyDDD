@@ -8,7 +8,7 @@ namespace MetigatorAcademy.Infrastructure.Context.Config
     {
         public void Configure(EntityTypeBuilder<Coporate> builder)
         {
-            
+            builder.Property(e => e.Id).ValueGeneratedNever();
         }
     }
 }

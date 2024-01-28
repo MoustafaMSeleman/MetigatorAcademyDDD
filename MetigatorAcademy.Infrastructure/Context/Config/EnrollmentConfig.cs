@@ -8,6 +8,7 @@ public class EnrollmentConfig : IEntityTypeConfiguration<Enrollment>
 {
     public void Configure(EntityTypeBuilder<Enrollment> builder)
     {
+        builder.Property(e => e.Id).ValueGeneratedNever();
         builder.HasKey(x => new { x.ParticipantId, x.SectionId });
     }
 }

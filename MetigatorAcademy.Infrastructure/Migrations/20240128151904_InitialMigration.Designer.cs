@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MetigatorAcademy.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240126205525_InitialMigration")]
+    [Migration("20240128151904_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -28,10 +28,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Course", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CourseName")
                         .IsRequired()
@@ -92,10 +89,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Instructor", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateTime")
                         .HasColumnType("datetime2");
@@ -134,10 +128,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Office", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateTime")
                         .HasColumnType("datetime2");
@@ -210,10 +201,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Schedule", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("CreateTime")
                         .HasColumnType("datetime2");
@@ -260,10 +248,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Section", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");

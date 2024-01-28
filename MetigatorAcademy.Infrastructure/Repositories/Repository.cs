@@ -83,6 +83,7 @@ public class Repository<T> : IRepository<T> where T : class
     }
     public IEnumerable<T> AddRange(IEnumerable<T> items) 
     {
+        Console.WriteLine("Entering...");
         _context.Set<T>().AddRange(items);
         _context.SaveChanges();
         return items;

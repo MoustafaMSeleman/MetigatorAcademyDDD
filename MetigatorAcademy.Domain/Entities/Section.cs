@@ -17,8 +17,9 @@ public class Section : Entity
 
     private Section() { }
 
-    public Section(string? sectionName, int courseId,  int? instructorId, int scheduleId,TimeSlot timeSlot)
+    public Section(int id,string? sectionName, int courseId,  int? instructorId, int scheduleId,TimeSlot timeSlot)
     {
+        Id = id;
         SectionName = sectionName;
         CourseId = courseId;
         

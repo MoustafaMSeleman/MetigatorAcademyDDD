@@ -15,8 +15,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                 name: "Course",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     CourseName = table.Column<string>(type: "VARCHAR(100)", maxLength: 100, nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     CreatedBy = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -33,8 +32,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                 name: "Offices",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     OfficeName = table.Column<string>(type: "VARCHAR(50)", maxLength: 50, nullable: false),
                     OfficeLocation = table.Column<string>(type: "VARCHAR(50)", maxLength: 50, nullable: false),
                     CreatedBy = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -74,8 +72,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                 name: "Schedules",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SUN = table.Column<bool>(type: "bit", nullable: false),
                     MON = table.Column<bool>(type: "bit", nullable: false),
@@ -98,8 +95,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                 name: "Instructors",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     FName = table.Column<string>(type: "VARCHAR(50)", maxLength: 50, nullable: false),
                     LName = table.Column<string>(type: "VARCHAR(50)", maxLength: 50, nullable: false),
                     OfficeId = table.Column<int>(type: "int", nullable: true),
@@ -122,8 +118,7 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                 name: "Sections",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     SectionName = table.Column<string>(type: "VARCHAR(50)", maxLength: 50, nullable: false),
                     CourseId = table.Column<int>(type: "int", nullable: false),
                     InstructorId = table.Column<int>(type: "int", nullable: true),
