@@ -2,7 +2,7 @@
 
 namespace MetigatorAcademy.Domain.Common.Interfaces;
 
-public interface IUnitOfWork
+public interface IUnitOfWork : IDisposable
 {
     IRepository<Coporate> coporatesRepository { get; }
     IRepository<Course> coursesRepository { get; }
@@ -14,4 +14,5 @@ public interface IUnitOfWork
     IRepository<Schedule> schedulesRepository { get; }
     IRepository<Section> sectionsRepository { get; }
 
+    int SaveChanges();
 }
