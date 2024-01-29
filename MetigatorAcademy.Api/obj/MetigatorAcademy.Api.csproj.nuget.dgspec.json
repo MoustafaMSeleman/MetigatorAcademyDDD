@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj": {}
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj": {}
   },
   "projects": {
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj",
         "projectName": "MetigatorAcademy.Api",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Api\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Api\\MetigatorAcademy.Api.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,21 +22,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
-                "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj"
+              "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
+                "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj"
               },
-              "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj": {
-                "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj"
+              "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj": {
+                "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj"
               },
-              "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj": {
-                "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj"
+              "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj": {
+                "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj"
               }
             }
           }
@@ -49,9 +44,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -106,21 +98,17 @@
         }
       }
     },
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj",
         "projectName": "MetigatorAcademy.Application",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,15 +116,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
-                "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj"
+              "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
+                "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj"
               }
             }
           }
@@ -145,9 +132,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -173,21 +157,17 @@
         }
       }
     },
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj",
         "projectName": "MetigatorAcademy.Contracts",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Contracts\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\MetigatorAcademy.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,7 +175,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -208,9 +187,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -236,21 +212,17 @@
         }
       }
     },
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
         "projectName": "MetigatorAcademy.Domain",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,7 +230,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -271,9 +242,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -299,21 +267,17 @@
         }
       }
     },
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj",
         "projectName": "MetigatorAcademy.Infrastructure",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Infrastructure\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\MetigatorAcademy.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -321,15 +285,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
-                "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj"
+              "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj": {
+                "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Application\\MetigatorAcademy.Application.csproj"
               }
             }
           }
@@ -338,9 +301,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {

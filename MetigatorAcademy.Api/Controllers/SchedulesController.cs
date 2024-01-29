@@ -10,24 +10,36 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class SchedulesController : ControllerBase
     {
-        
-        private readonly IRepository<Schedule> _scheduleRepository;
 
-        public SchedulesController(IRepository<Schedule> scheduleRepository)
+        //private readonly IRepository<Schedule> _scheduleRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public SchedulesController(IUnitOfWork unitOfWork)
         {
-            _scheduleRepository = scheduleRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("AddRange")]
         public IActionResult AddRange() 
         {
-            return Ok(_scheduleRepository.AddRange(SeedData.LoadSchedules()));
+            return Ok(_unitOfWork.schedulesRepository.AddRange(SeedData.LoadSchedules()));
         }
 
         [HttpGet("GetById")]
         public IActionResult GetById(int id) 
         {
-            return Ok(_scheduleRepository.GetById(id));
+            return Ok(_unitOfWork.schedulesRepository.GetById(id));
+        }
+        [HttpPost("Add")]
+        public IActionResult Add(Schedule schedule) 
+        {
+            _unitOfWork.schedulesRepository.Add(schedule);
+            _unitOfWork.SaveChanges();
+            return Ok(schedule);
+        }
+        [HttpGet("GetAll")]
+        public IActionResult GetAll() 
+        {
+            return Ok(_unitOfWork.schedulesRepository.GetAll());
         }
     }
 }

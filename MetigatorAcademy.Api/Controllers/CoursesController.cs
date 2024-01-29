@@ -1,6 +1,7 @@
 ﻿using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Domain.Entities;
 using MetigatorAcademy.Infrastructure.Context;
+using MetigatorAcademy.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,17 +11,17 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class CoursesController : ControllerBase
     {
-        private readonly IRepository<Course> _courseRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CoursesController(IRepository<Course> courseRepository) 
+        public CoursesController(IUnitOfWork unitOfWork) 
         {
-            _courseRepository = courseRepository;
+            _unitOfWork = unitOfWork;
         }
         [HttpGet("AddRange")]
         public IActionResult AddRange(List<Course> list)
         {
             //return Ok(_courseRepository.AddRange(SeedData.LoadCorporates()));
-            return Ok(_courseRepository.AddRange(list));
+            return Ok(_unitOfWork.coursesRepository.AddRange(list));
         }
     }
 }

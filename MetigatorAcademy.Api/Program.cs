@@ -6,8 +6,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("SqlServer")));
-builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
-
+//builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
+builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
 
 
 

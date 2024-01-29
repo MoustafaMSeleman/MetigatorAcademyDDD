@@ -10,18 +10,18 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class IndiviualsController : ControllerBase
     {
-        private readonly IRepository<Indiviual> _indiviualRepository;
-
-        public IndiviualsController(IRepository<Indiviual> indiviualRepository)
+        // private readonly IRepository<Indiviual> _indiviualRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public IndiviualsController(IUnitOfWork unitOfWork)
         {
-            _indiviualRepository = indiviualRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("AddRange")]
         public IActionResult AddRange(List<Indiviual> list)
         {
             //return Ok(_indiviualRepository.AddRange(SeedData.LoadCorporates()));
-            return Ok(_indiviualRepository.AddRange(list));
+            return Ok(_unitOfWork.indiviualsRepository.AddRange(list));
         }
     }
 }

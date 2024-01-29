@@ -10,18 +10,18 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class EnrollmentsController : ControllerBase
     {
-        private readonly IRepository<Enrollment> _enrollmentsRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public EnrollmentsController(IRepository<Enrollment> enrollmentsRepository)
+        public EnrollmentsController(IUnitOfWork unitOfWork)
         {
-            _enrollmentsRepository = enrollmentsRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("AddRange")]
         public IActionResult AddRange(List<Enrollment> list)
         {
             //return Ok(_enrollmentsRepository.AddRange(SeedData.LoadCorporates()));
-            return Ok(_enrollmentsRepository.AddRange(list));
+            return Ok(_unitOfWork.enrollmentsRepository.AddRange(list));
         }
     }
 }

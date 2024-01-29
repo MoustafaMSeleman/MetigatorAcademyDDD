@@ -10,18 +10,33 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class InstructorsController : ControllerBase
     {
-        private readonly IRepository<Instructor> _instructorRepository;
-
-        public InstructorsController(IRepository<Instructor> instructorRepository)
+        //private readonly IRepository<Instructor> _instructorRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public InstructorsController(IUnitOfWork unitOfWork)
         {
-            _instructorRepository = instructorRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("AddRange")]
         public IActionResult AddRange(List<Instructor> list)
         {
             //return Ok(_instructorRepository.AddRange(SeedData.LoadCorporates()));
-            return Ok(_instructorRepository.AddRange(list));
+            return Ok(_unitOfWork.instructorsRepository.AddRange(list));
         }
+
+        [HttpGet("GetAll")]
+        public IActionResult GetAll() 
+        {
+            return Ok(_unitOfWork.instructorsRepository.GetAll());
+        }
+        [HttpGet("Add")]
+        public IActionResult Add()
+        {
+            var instructor = new Instructor(6,"Moustafa","Soliman",6);
+            _unitOfWork.instructorsRepository.Add(instructor);
+            _unitOfWork.SaveChanges();
+            return Ok(instructor);
+        }
+
     }
 }

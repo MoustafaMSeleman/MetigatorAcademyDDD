@@ -10,18 +10,25 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class OfficesController : ControllerBase
     {
-        private readonly IRepository<Office> _officeRepository;
-
-        public OfficesController(IRepository<Office> officeRepository)
+        // private readonly IRepository<Office> _officeRepository;
+        private readonly IUnitOfWork _unitOfWork;
+        public OfficesController(IUnitOfWork unitOfWork)
         {
-            _officeRepository = officeRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("AddRange")]
         public IActionResult AddRange(List<Office> list)
         {
             //return Ok( _officeRepository.AddRange(SeedData.LoadCorporates()));
-            return Ok(_officeRepository.AddRange(list));
+            return Ok(_unitOfWork.officesRepository.AddRange(list));
+        }
+        [HttpGet("Add")]
+        public IActionResult Add()
+        {
+            var office = new Office(6,"SpecialOffice","BuildingC");
+            _unitOfWork.officesRepository.Add(office);
+            return Ok(office);
         }
     }
 }

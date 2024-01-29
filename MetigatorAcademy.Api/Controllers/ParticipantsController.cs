@@ -10,11 +10,11 @@ namespace MetigatorAcademy.Api.Controllers
     [ApiController]
     public class ParticipantsController : ControllerBase
     {
-        private readonly IRepository<Participant> _participantRepository;
-
-        public ParticipantsController(IRepository<Participant> participantRepository)
+       // private readonly IRepository<Participant> _participantRepository;
+       private readonly IUnitOfWork _unitOfWork;
+        public ParticipantsController(IUnitOfWork unitOfWork)
         {
-            _participantRepository = participantRepository;
+            _unitOfWork = unitOfWork;
         }
         
     }

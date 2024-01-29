@@ -124,7 +124,13 @@
      }
 
 
+9- Replace builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
+    by     builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
+10- In each controller we will inject IUnitOfWork _unitOfWork; instead of IRepository "Constructor Injection"
+
+11- Replace _unitOfWrok.Orders.GetById(1); instead of _orderRepository.GetById(1);
+   "Replace in all controllers with specified property"
 
 
 

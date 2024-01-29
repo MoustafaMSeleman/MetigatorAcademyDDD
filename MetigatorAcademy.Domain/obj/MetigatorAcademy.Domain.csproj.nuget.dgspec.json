@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {}
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {}
   },
   "projects": {
-    "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
+    "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
+        "projectUniqueName": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
         "projectName": "MetigatorAcademy.Domain",
-        "projectPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
-        "packagesPath": "C:\\Users\\Desha\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet Core\\Entity framework\\MetigatorAcademcy\\MetigatorAcademy\\MetigatorAcademy.Domain\\obj\\",
+        "projectPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\MetigatorAcademy.Domain.csproj",
+        "packagesPath": "C:\\Users\\Moustafa\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\EntityFramework\\MyWork\\MetigatorAcademyDDD\\MetigatorAcademyDDD\\MetigatorAcademy.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Desha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Moustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,9 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
