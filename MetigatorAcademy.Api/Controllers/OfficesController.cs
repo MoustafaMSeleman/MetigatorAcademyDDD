@@ -30,5 +30,10 @@ namespace MetigatorAcademy.Api.Controllers
             _unitOfWork.officesRepository.Add(office);
             return Ok(office);
         }
+        [HttpGet("GetAllInclude")]
+        public IActionResult GetAll(string? included)
+        {
+            return Ok(_unitOfWork.officesRepository.GetAll(included));
+        }
     }
 }

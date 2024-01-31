@@ -2,6 +2,7 @@ using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Infrastructure.Context;
 using MetigatorAcademy.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
@@ -15,7 +16,11 @@ builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    }); ;
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

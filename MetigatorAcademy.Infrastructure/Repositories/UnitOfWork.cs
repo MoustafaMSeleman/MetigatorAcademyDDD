@@ -17,6 +17,8 @@ public class UnitOfWork : IUnitOfWork
     public IRepository<Schedule> schedulesRepository { get; private set; }
     public IRepository<Section> sectionsRepository { get; private set; }
 
+    
+
     public UnitOfWork(AppDbContext context)
     {
         _context = context;

@@ -23,5 +23,10 @@ namespace MetigatorAcademy.Api.Controllers
             //return Ok(_enrollmentsRepository.AddRange(SeedData.LoadCorporates()));
             return Ok(_unitOfWork.enrollmentsRepository.AddRange(list));
         }
+        [HttpGet("GetAllInclude")]
+        public IActionResult GetAll(string? included)
+        {
+            return Ok(_unitOfWork.enrollmentsRepository.GetAll(included));
+        }
     }
 }

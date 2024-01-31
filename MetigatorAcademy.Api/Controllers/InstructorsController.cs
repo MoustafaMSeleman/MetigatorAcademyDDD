@@ -29,6 +29,11 @@ namespace MetigatorAcademy.Api.Controllers
         {
             return Ok(_unitOfWork.instructorsRepository.GetAll());
         }
+        [HttpGet("GetAllInclude")]
+        public IActionResult GetAll(string? included)
+        {
+            return Ok(_unitOfWork.instructorsRepository.GetAll(included));
+        }
         [HttpGet("Add")]
         public IActionResult Add()
         {

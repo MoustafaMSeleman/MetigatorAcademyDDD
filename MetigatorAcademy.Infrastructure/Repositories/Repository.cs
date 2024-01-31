@@ -17,13 +17,17 @@ public class Repository<T> : IRepository<T> where T : class
     }
     public T GetById(int id)
     {
-        return _context.Set<T>().Find(id);
+            return _context.Set<T>().Find(id);
     }
     public async Task<T> GetByIdAsync(int id)
     {
         return await _context.Set<T>().FindAsync(id);
     }
-    public IEnumerable<T> GetAll() 
+    public virtual IEnumerable<T> GetAll(string? included) 
+    {
+        return _context.Set<T>().Include(included).ToList();
+    }
+    public virtual IEnumerable<T> GetAll()
     {
         return _context.Set<T>().ToList();
     }
@@ -31,12 +35,13 @@ public class Repository<T> : IRepository<T> where T : class
     {
         return await _context.Set<T>().ToListAsync();
     }
-    public T Find(Expression<Func<T,bool>> match)
-    { 
-        return _context.Set<T>().SingleOrDefault(match);
-    }
 
-    public T Find(Expression<Func<T,bool>> match, string[] includes)
+
+    public T Find(Expression<Func<T, bool>> match)
+    {
+      return _context.Set<T>().SingleOrDefault(match);
+    }
+    public T Find(Expression<Func<T,bool>> match, string[]? includes)
     {
         IQueryable<T> query = _context.Set<T>();
         if(query !=null) 
@@ -47,7 +52,7 @@ public class Repository<T> : IRepository<T> where T : class
         return query.SingleOrDefault(match);
     }
 
-    public IEnumerable<T> FindAll(Expression<Func<T,bool>> match, string[] includes)
+    public IEnumerable<T> FindAll(Expression<Func<T,bool>> match, string[]? includes)
     {
         IQueryable<T> query = _context.Set<T>();
         if (query != null)
@@ -59,8 +64,8 @@ public class Repository<T> : IRepository<T> where T : class
         return query.Where(match).ToList();
     }
 
-    public IEnumerable<T> FindAll(Expression<Func<T, bool>> match, Expression<Func<T, object>> orderBy =null,
-        string orderByDirection = OrderBy.Ascending, string[] includes = null)
+    public IEnumerable<T> FindAll(Expression<Func<T, bool>> match, Expression<Func<T, object>>? orderBy =null,
+        string orderByDirection = OrderBy.Ascending, string[]? includes = null)
     {
         IQueryable<T> query = _context.Set<T>().Where(match);
         if (includes != null)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetigatorAcademy.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee6f6fc8c2615b89fe82d49fe2a30706c7c439c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12d93b8ed4698bcc787133c71e45bbb234ea94d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetigatorAcademy.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetigatorAcademy.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
