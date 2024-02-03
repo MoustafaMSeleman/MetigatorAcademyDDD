@@ -1,4 +1,5 @@
-﻿using MetigatorAcademy.Domain.Common.Interfaces;
+﻿using MetigatorAcademy.Application.DTOs;
+using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Domain.Entities;
 using MetigatorAcademy.Infrastructure.Context;
 using Microsoft.AspNetCore.Http;
@@ -30,10 +31,22 @@ namespace MetigatorAcademy.Api.Controllers
             _unitOfWork.officesRepository.Add(office);
             return Ok(office);
         }
-        [HttpGet("GetAllInclude")]
-        public IActionResult GetAll(string? included)
+        
+        [HttpGet("GetAll")]
+        public IActionResult GetAll()
         {
-            return Ok(_unitOfWork.officesRepository.GetAll(included));
+            var offices = _unitOfWork.officesRepository.GetAll();
+            var result = offices.Select(x => 
+                  new OfficeDTO {
+                      OfficeName = x.OfficeName,
+                      OfficeLocation = x.OfficeLocation,
+                      Instructor = new InstructorDTO { 
+                         FName = x.Instructor.FName,
+                         LName = x.Instructor.LName,
+                      }
+                  }
+                );
+            return Ok(result);
         }
     }
 }

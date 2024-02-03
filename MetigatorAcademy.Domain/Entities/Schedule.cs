@@ -16,9 +16,9 @@ public class Schedule :Entity
     public bool FRI { get; set; }
     public bool SAT { get; set; }
 
-    public ICollection<Section> Sections { get; set; } = new List<Section>();
+    public virtual ICollection<Section> Sections { get; set; } = new List<Section>();
 
-    private Schedule() { }
+    public Schedule() { }
     public Schedule(int id,ScheduleEnum title, bool sUN, bool mON, bool tUE, bool wED, bool tHU, bool fRI, bool sAT)
     {
         Id = id;

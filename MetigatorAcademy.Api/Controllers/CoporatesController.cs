@@ -1,4 +1,5 @@
-﻿using MetigatorAcademy.Domain.Common.Interfaces;
+﻿using MetigatorAcademy.Application.DTOs;
+using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Domain.Entities;
 using MetigatorAcademy.Infrastructure.Context;
 using Microsoft.AspNetCore.Http;
@@ -26,7 +27,34 @@ namespace MetigatorAcademy.Api.Controllers
         [HttpGet("GetAllInclude")]
         public IActionResult GetAll(string? included)
         {
-            return Ok(_unitOfWork.coporatesRepository.GetAll(included));
+            var Coporates = _unitOfWork.coporatesRepository.GetAll(included);
+            var Result = Coporates.Select(
+                   x => new CoporateDTO
+                   {
+                       FName = x.FName,
+                       LName = x.LName,
+                       Company = x.Company,
+                       JobTitle = x.JobTitle
+                       
+                   }
+                );
+            return Ok(Result);
+            
+        }
+
+        [HttpGet("GetAll")]
+        public IActionResult GetAll()
+        {
+            var Coporates = _unitOfWork.coporatesRepository.GetAll();
+            var Result = Coporates.Select(
+                   x => new CoporateDTO {
+                       FName = x.FName,
+                       LName = x.LName,
+                      Company = x.Company,
+                      JobTitle = x.JobTitle,
+                   }
+                );
+            return Ok(Result);
         }
     }
 }

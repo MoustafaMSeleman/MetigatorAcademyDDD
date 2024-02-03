@@ -1,4 +1,5 @@
-﻿using MetigatorAcademy.Domain.Common.Interfaces;
+﻿using MetigatorAcademy.Application.DTOs;
+using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Domain.Entities;
 using MetigatorAcademy.Infrastructure.Context;
 using Microsoft.AspNetCore.Http;
@@ -50,12 +51,52 @@ namespace MetigatorAcademy.Api.Controllers
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
-            return Ok(_unitOfWork.sectionsRepository.GetAll());
+            var sections = _unitOfWork.sectionsRepository.GetAll();
+            var result = sections.Select(x => new SectionDTO
+            {
+                SectionName = x.SectionName,
+                TimeSlot = x.TimeSlot,
+                Instructor = new InstructorDTO
+                {
+                    FName = x.Instructor.FName,
+                    LName = x.Instructor.LName
+                },
+                Course = new CourseDTO
+                {
+                    CourseName = x.Course.CourseName,
+                    Price = x.Course.Price,
+
+
+                },
+                Schedule = new ScheduleDTO
+                {
+                    Title = x.Schedule.Title.ToString(),
+                    SUN = x.Schedule.SUN,
+                    MON = x.Schedule.MON,
+                    TUE = x.Schedule.TUE,
+                    WED = x.Schedule.WED,
+                    THU = x.Schedule.THU,
+                    FRI = x.Schedule.FRI,
+                    SAT = x.Schedule.SAT,
+
+
+                },
+                Participants = x.Participants.Select(e =>
+                    new ParticipantDTO
+                    {
+                        FName = e.FName,
+                        LName = e.LName
+                    }
+                ).ToList()
+            });
+            return Ok(result);
         }
         [HttpGet("GetAllInclude")]
         public IActionResult GetAll(string? included)
         {
+            
             return Ok(_unitOfWork.sectionsRepository.GetAll(included));
+
         }
         [HttpGet("GetAllAsync")]
         public IActionResult GetAllAsync()

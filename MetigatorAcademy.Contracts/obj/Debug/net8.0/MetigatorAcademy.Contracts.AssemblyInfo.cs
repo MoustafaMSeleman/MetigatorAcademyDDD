@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetigatorAcademy.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3dda12836dbb96b8703d4a15e27f757383bce34")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetigatorAcademy.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetigatorAcademy.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

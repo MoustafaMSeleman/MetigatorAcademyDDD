@@ -6,7 +6,11 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("SqlServer")));
+builder.Services.AddDbContext<AppDbContext>(options => 
+    options
+    .UseLazyLoadingProxies()
+    .UseSqlServer(configuration.GetConnectionString("SqlServer")));
+
 //builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
 builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
 
@@ -16,11 +20,18 @@ builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//builder.Services.AddControllers().AddJsonOptions(x =>
+//   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
 builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
-    }); ;
+    //.AddJsonOptions(options =>
+    //{
+    //    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+    //    //options.JsonSerializerOptions.MaxDepth = 64;
+    //    options.JsonSerializerOptions.WriteIndented = true;
+    //})
+    ; 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

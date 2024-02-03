@@ -7,9 +7,9 @@ public class Course : Entity
 {
     public string CourseName { get; set; } = null!;
     public decimal Price { get; set; }
-    public ICollection<Section> Sections { get; } = new List<Section>();
+    public virtual ICollection<Section> Sections { get; } = new List<Section>();
 
-    private Course() { }
+    public Course() { }
 
     public Course(int id,string courseName, decimal price)
     {

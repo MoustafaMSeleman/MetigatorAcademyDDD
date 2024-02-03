@@ -8,9 +8,9 @@ public class Office:Entity
     public string? OfficeName { get; set; }
     public string? OfficeLocation { get; set; }
 
-    public Instructor? Instructor { get; set; }
+    public virtual Instructor? Instructor { get; set; }
 
-    private Office() { }
+    public Office() { }
     public Office(int id,string ? officeName, string? officeLocation)
     {
         Id = id;

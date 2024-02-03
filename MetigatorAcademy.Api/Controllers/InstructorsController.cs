@@ -1,4 +1,5 @@
-﻿using MetigatorAcademy.Domain.Common.Interfaces;
+﻿using MetigatorAcademy.Application.DTOs;
+using MetigatorAcademy.Domain.Common.Interfaces;
 using MetigatorAcademy.Domain.Entities;
 using MetigatorAcademy.Infrastructure.Context;
 using Microsoft.AspNetCore.Http;
@@ -27,12 +28,57 @@ namespace MetigatorAcademy.Api.Controllers
         [HttpGet("GetAll")]
         public IActionResult GetAll() 
         {
-            return Ok(_unitOfWork.instructorsRepository.GetAll());
+            var instructors = _unitOfWork.instructorsRepository.GetAll();
+            var result = instructors.Select(x =>
+               new InstructorDTO
+               {
+                   FName = x.FName,
+                   LName = x.LName,
+                   Office = new OfficeDTO { 
+                       OfficeName = x.Office.OfficeName,
+                       OfficeLocation = x.Office.OfficeLocation
+                   },
+                   Sections = x.Sections.Select(z =>
+                     new SectionDTO
+                     {
+                         SectionName = z.SectionName,
+                         TimeSlot = z.TimeSlot,
+                         Course = new CourseDTO
+                         {
+                             CourseName = z.Course.CourseName,
+                             Price = z.Course.Price,
+                         },
+
+                     }
+                   ).ToList()
+               }
+            );
+            return Ok(result);
         }
         [HttpGet("GetAllInclude")]
         public IActionResult GetAll(string? included)
         {
-            return Ok(_unitOfWork.instructorsRepository.GetAll(included));
+            var instructors = _unitOfWork.instructorsRepository.GetAll(included);
+            var result = instructors.Select(x =>
+               new InstructorDTO
+               {
+                   FName = x.FName,
+                   LName = x.LName,
+                   Office = new OfficeDTO { },
+                   Sections = x.Sections.Select( z => 
+                     new SectionDTO { 
+                         SectionName = z.SectionName,
+                         TimeSlot = z.TimeSlot,
+                         Course= new CourseDTO { 
+                             CourseName=z.Course.CourseName,
+                             Price = z.Course.Price,
+                         },
+                         
+                     }
+                   ).ToList()
+               }
+            );
+            return Ok(result);
         }
         [HttpGet("Add")]
         public IActionResult Add()
