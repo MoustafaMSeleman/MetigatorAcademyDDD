@@ -27,6 +27,8 @@ namespace MetigatorAcademy.Api.Controllers
         [HttpGet("GetAllInclude")]
         public IActionResult GetAll(string? included)
         {
+
+
             return Ok(_unitOfWork.coursesRepository.GetAll(included).
                 Select(x =>
                 new CourseDTO
@@ -39,13 +41,28 @@ namespace MetigatorAcademy.Api.Controllers
                         SectionName = z.SectionName,
                         TimeSlot = z.TimeSlot
                     }).ToList(),
-                })) 
+                }))
                 ;
         }
 
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
+            //var courses = from c in _unitOfWork.coursesRepository.GetAll()
+            //              join s in _unitOfWork.sectionsRepository.GetAll()
+            //                      on c.CourseName equals s.Course.CourseName
+            //              select new 
+            //              {
+            //                  c.CourseName,
+            //                  c.Price,
+            //                  Sections = c.Sections.Select(z =>
+            //                  new 
+            //                  {
+            //                       z.SectionName,
+            //                       z.TimeSlot
+            //                  }).ToList(),
+            //              };
+            //return Ok(courses);
             var courses = _unitOfWork.coursesRepository.GetAll();
             var coursesDTO = courses.Select(x =>
                 new CourseDTO
@@ -58,8 +75,10 @@ namespace MetigatorAcademy.Api.Controllers
                         SectionName = z.SectionName,
                         TimeSlot = z.TimeSlot
                     }).ToList()
-                }) ;
+                });
             return Ok(coursesDTO);
         }
+
+        
     }
 }

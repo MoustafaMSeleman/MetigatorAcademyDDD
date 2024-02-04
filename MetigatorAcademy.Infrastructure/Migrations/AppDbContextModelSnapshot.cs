@@ -18,6 +18,9 @@ namespace MetigatorAcademy.Infrastructure.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true)
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -195,6 +198,31 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                     b.UseTphMappingStrategy();
                 });
 
+            modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Review", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Feedback")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("Reviews");
+                });
+
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Schedule", b =>
                 {
                     b.Property<int>("Id")
@@ -339,6 +367,17 @@ namespace MetigatorAcademy.Infrastructure.Migrations
                         .HasForeignKey("MetigatorAcademy.Domain.Entities.Instructor", "OfficeId");
 
                     b.Navigation("Office");
+                });
+
+            modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Review", b =>
+                {
+                    b.HasOne("MetigatorAcademy.Domain.Entities.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("MetigatorAcademy.Domain.Entities.Section", b =>

@@ -9,7 +9,8 @@ ConfigurationManager configuration = builder.Configuration;
 builder.Services.AddDbContext<AppDbContext>(options => 
     options
     .UseLazyLoadingProxies()
-    .UseSqlServer(configuration.GetConnectionString("SqlServer")));
+    .UseSqlServer(configuration.GetConnectionString("SqlServer"))
+    .LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information));
 
 //builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
 builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();

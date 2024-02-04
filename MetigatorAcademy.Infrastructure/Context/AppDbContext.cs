@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public DbSet<Office> Offices { get; set; }
     public DbSet<Schedule> Schedules { get; set; }
     public DbSet<Section> Sections { get; set; }
+    public DbSet<Review> Reviews { get; set; }
 
 
 
